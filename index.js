@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const moment = require('moment')
-const { HOST } = require('./src/constants')
+const { HOST, IMG } = require('./src/constants')
 const db = require('./src/database')
 
 const PORT = process.env.PORT || 5000
@@ -32,7 +32,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'zodiac sign': zodiac(day, month),
       // 'age': moment().diff(person.birthday, 'years')
     },
-    'image': `${HOST}/images/${tokenId}.png`
+    'image': `${IMG}/images/${tokenId}.png`
   }
   res.send(data)
 })

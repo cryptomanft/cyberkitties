@@ -1,4 +1,8 @@
 module.exports = {
+  "0": {
+    "name": "cat 1",
+    "birthday": "10-18"
+  },
   "1": {
     "name": "Chunky Monkey",
     "birthday": "10-18"
