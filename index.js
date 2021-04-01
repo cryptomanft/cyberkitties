@@ -27,7 +27,15 @@ app.get('/', function (req, res) {
         "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721"
     })
 })
-
+app.get('/api/meta', function (req, res) {
+    res.send({
+        "name": "CyberKitties",
+        "description": "10000 CyberKitties",
+        "image": "https://storage.googleapis.com/cyberkitties/0.png",
+        "seller_fee_basis_points": 1000,
+        "fee_recipient": "0x16854a92829BaC13D9F485860f03116EE1C99752"
+});
+})
 app.get('/api/token/:token_id', function (req, res) {
     const tokenId = parseInt(req.params.token_id).toString()
     const person = db[tokenId]
