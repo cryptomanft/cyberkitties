@@ -1,26 +1,253 @@
-module.exports = {
-  "0": {
-    "name": "cat 1",
-    "birthday": "10-18"
+module.exports = [
+  {
+    "name": "CyberKitty #0",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "default"
+      },
+      {
+        "trait_type": "color",
+        "value": "gray striped"
+      },
+      {
+        "trait_type": "eye",
+        "value": "anaglyph"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "grin"
+      },
+      {
+        "trait_type": "head",
+        "value": "default"
+      }
+    ]
   },
-  "1": {
-    "name": "Chunky Monkey",
-    "birthday": "10-18"
+  {
+    "name": "CyberKitty #1",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "white"
+      },
+      {
+        "trait_type": "color",
+        "value": "orange striped"
+      },
+      {
+        "trait_type": "eye",
+        "value": "red"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "neutral"
+      },
+      {
+        "trait_type": "head",
+        "value": "default"
+      }
+    ]
   },
-  "2": {
-    "name": "Flerp Derp",
-    "birthday": "01-08"
+  {
+    "name": "CyberKitty #2",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "dotted"
+      },
+      {
+        "trait_type": "color",
+        "value": "orange"
+      },
+      {
+        "trait_type": "eye",
+        "value": "close"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "neutral"
+      },
+      {
+        "trait_type": "head",
+        "value": "blue mohawk"
+      }
+    ]
   },
-  "3": {
-    "name": "Buttle McFuddle",
-    "birthday": "01-22"
+  {
+    "name": "CyberKitty #3",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "white"
+      },
+      {
+        "trait_type": "color",
+        "value": "gray striped"
+      },
+      {
+        "trait_type": "eye",
+        "value": "green"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "tongue"
+      },
+      {
+        "trait_type": "head",
+        "value": "classic"
+      }
+    ]
   },
-  "4": {
-    "name": "Quiero Pancakes",
-    "birthday": "03-04"
+  {
+    "name": "CyberKitty #4",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "default"
+      },
+      {
+        "trait_type": "color",
+        "value": "gray striped"
+      },
+      {
+        "trait_type": "eye",
+        "value": "anaglyph"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "tongue"
+      },
+      {
+        "trait_type": "head",
+        "value": "classic"
+      }
+    ]
   },
-  "5": {
-    "name": "Guino the Penguin",
-    "birthday": "03-09"
+  {
+    "name": "CyberKitty #5",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "dotted"
+      },
+      {
+        "trait_type": "color",
+        "value": "blue"
+      },
+      {
+        "trait_type": "eye",
+        "value": "red"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "sad"
+      },
+      {
+        "trait_type": "head",
+        "value": "pink mohawk"
+      }
+    ]
+  },
+  {
+    "name": "CyberKitty #6",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "green"
+      },
+      {
+        "trait_type": "color",
+        "value": "default"
+      },
+      {
+        "trait_type": "eye",
+        "value": "round purple glass"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "pipe"
+      },
+      {
+        "trait_type": "head",
+        "value": "pink mohawk"
+      }
+    ]
+  },
+  {
+    "name": "CyberKitty #7",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "green"
+      },
+      {
+        "trait_type": "color",
+        "value": "green"
+      },
+      {
+        "trait_type": "eye",
+        "value": "yellow glas"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "tongue"
+      },
+      {
+        "trait_type": "head",
+        "value": "classic 2"
+      }
+    ]
+  },
+  {
+    "name": "CyberKitty #8",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "default"
+      },
+      {
+        "trait_type": "color",
+        "value": "orange"
+      },
+      {
+        "trait_type": "eye",
+        "value": "purple glass"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "grin"
+      },
+      {
+        "trait_type": "head",
+        "value": "classic"
+      }
+    ]
+  },
+  {
+    "name": "CyberKitty #9",
+    "attributes": [
+      {
+        "trait_type": "background",
+        "value": "yellow"
+      },
+      {
+        "trait_type": "color",
+        "value": "pink"
+      },
+      {
+        "trait_type": "eye",
+        "value": "default"
+      },
+      {
+        "trait_type": "mouth",
+        "value": "neutral"
+      },
+      {
+        "trait_type": "head",
+        "value": "default"
+      }
+    ]
   }
-}
+]
+
